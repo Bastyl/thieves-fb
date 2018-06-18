@@ -1,0 +1,14 @@
+<html>
+
+{% for elem1 in sospechosos %}
+<p>
+{{elem1}}
+{{elem1[0][1]}}
+
+<a href="/delincuente/{{elem1[0][1]}}">Ver mas</a>
+
+</p>
+{% endfor %}
+
+
+<br>
